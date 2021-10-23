@@ -6,7 +6,8 @@ version: 2.1
 commands:
   print_pipeline_id:
     parameters:
-      id: string
+      id: 
+        type: string
     steps:
       - run: echo << parameters.id >>
 jobs:
